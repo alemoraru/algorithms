@@ -46,4 +46,4 @@ void find_comps() {
 
 * The most important function that is used is "find_comps()" which finds and displays connected components of the graph.
 * The graph is stored in adjacency list representation, i.e g[i] contains a list of vertices that have edges from the vertex i. The constant N should be set equal to the maximum possible number of vertices in the graph.
-* Vector comp contains a list of nodes in the current connected component
+* Vector comp contains a list of nodes in the current connected component. 
