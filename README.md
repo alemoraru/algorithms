@@ -13,4 +13,9 @@ most notably :
 * Pointers & References
 * Structs
 
-NOTE: This is a WIP repository, therefore not all mentioned information is complete and/or present.
+The repository is therefore split into two parts, nameley :
+* Subfolder "__algos__", which contains relevant c++ algorithms
+* Subfolder "__tutorials__", which contains tutorials to c/c++ syntax and constructs
+for a better use of the language.
+
+**NOTE**: This is a WIP repository, therefore not all mentioned information is complete and/or present.
