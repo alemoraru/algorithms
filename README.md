@@ -1,6 +1,6 @@
 # Algorithms
-A quick overview of essential algorithms for any coding contest. 
-This is a quick .md summary of the information you can already find at http://cp-algorithms.com/
+A quick overview of essential algorithms for any coding contest and c++ language tutorials. 
+This is a quick .md summary of the information you can already find at http://cp-algorithms.com/ and https://www.geeksforgeeks.org/.
 
 In this repository you will find different essential algorithms for topics such as : 
 * Algebra
