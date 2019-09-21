@@ -224,3 +224,7 @@ int main() {
   return 0;
 }
 ```
+
+## How does this compare to Java? (Opinion)
+
+When it comes to inheritance, Java might seem a bit easier in terms of syntax, however C++ offers more freedom when it comes to inheriting from multiple classes, as shown above. Java does make use of a sleek feature, namely interfaces which make it useful when inheriting more "classes". Access modifiers are the same, therefore switching from one language to another should be fairly easy.
