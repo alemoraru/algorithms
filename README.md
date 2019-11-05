@@ -1,5 +1,5 @@
 # Algorithms
-A quick overview of essential algorithms for any coding contest and c++ language tutorials. 
+A quick overview of essential algorithms for any coding contest and c++ language tutorials*. 
 This is a quick .md summary of the information you can already find at http://cp-algorithms.com/ and https://www.geeksforgeeks.org/.
 
 In this repository you will find different essential algorithms for topics such as : 
@@ -19,3 +19,5 @@ The repository is therefore split into two parts, nameley :
 for a better use of the language.
 
 **NOTE**: This is a WIP repository, therefore not all mentioned information is complete and/or present.
+
+* Java is also present in this repository, however, equivalent c++ code is found as well.
