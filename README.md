@@ -17,10 +17,12 @@ most notably :
 * Structs
 
 The repository is therefore split into two parts, nameley :
-* Subfolder [algos](algos), which contains relevant c++ algorithms
+* Subfolder [algos](algos), which contains relevant cp* algorithms
 * Subfolder [tutorials](tutorials), which contains tutorials to c/c++ syntax and constructs
 for a better use of the language.
 
 **NOTES:**
 * This is a WIP repository, therefore not all mentioned information is complete and/or present.
 * For any questions, feel free to contact me. 
+
+*cp - competitive programming (fancy word of saying algorithm)
