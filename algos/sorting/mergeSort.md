@@ -82,7 +82,7 @@ public static void main(String[] args) {
             arr[i] = sc.nextInt();
         }
 
-        mergeSort(arr, 0, arr.length - 1);
+        mergeSort(arr, 0, arr.length - 1); // apply merge sort
         sc.close();
     }
 ```
