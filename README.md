@@ -1,5 +1,6 @@
 # Algorithms
-A quick overview of essential algorithms for any coding contest and c++ language tutorials. 
+A quick overview of essential algorithms for any coding contest and c++ language tutorials. Moreover, some algorithms might be 
+only in c++, only in java, or in both. For the most part, I will try to have everything in both languages.
 This is a quick .md summary of the information you can already find at http://cp-algorithms.com/ and https://www.geeksforgeeks.org/.
 
 In this repository you will find different essential algorithms for topics such as : 
@@ -18,4 +19,7 @@ The repository is therefore split into two parts, nameley :
 * Subfolder "__tutorials__", which contains tutorials to c/c++ syntax and constructs
 for a better use of the language.
 
-**NOTE**: This is a WIP repository, therefore not all mentioned information is complete and/or present.
+**NOTE**: 
+* This is a WIP repository, therefore not all mentioned information is complete and/or present.
+* For any questions, feel free to contact me. 
+
