@@ -36,3 +36,8 @@ public static void insertionSort(int[] arr) {
     }
 ```
 ## Complexity
+
+* **Time complexity** of Selection Sort is O(**n<sup>2</sup>**)
+* **Space complexity**: O(**1**) </br>
+* **In place?**: Yes
+* **Stable?**: Yes

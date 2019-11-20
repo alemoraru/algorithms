@@ -8,18 +8,13 @@
 ```java
 public static void selectionSort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            
-            // index of smallest element  
-            // in current sub array
-            int min_index = i; 
+            int min_index = i;
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[j] < arr[i]) {
                     min_index = j;
                 }
             }
 
-            // swap the smallest element 
-            // with current i element
             int aux = arr[i];
             arr[i] = arr[min_index];
             arr[min_index] = aux;
@@ -41,9 +36,9 @@ public static void selectionSort(int[] arr) {
 ```
 ## Complexity
 
-* **Time complexity** of Insertion Sort is O(**n<sup>2</sup>**)
+* **Time complexity** of Selection Sort is O(**n<sup>2</sup>**) as there are two nested loops.
 * **Space complexity**: O(**1**) </br>
 The good thing about selection sort is it never makes more than O(**n**) swaps and can be useful when memory write is a costly operation.
-* **In place?**: Yes
+* **In place?**: The default implementation is not stable. However it can be made stable
 * **Stable?**: Yes
     
