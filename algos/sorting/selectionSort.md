@@ -41,9 +41,9 @@ public static void selectionSort(int[] arr) {
 ```
 ## Complexity
 
-* **Time complexity** of Selection Sort is O(**n<sup>2</sup>**) as there are two nested loops.
+* **Time complexity** of Insertion Sort is O(**n<sup>2</sup>**)
 * **Space complexity**: O(**1**) </br>
 The good thing about selection sort is it never makes more than O(**n**) swaps and can be useful when memory write is a costly operation.
-* **In place?**: Yes, it does not require extra space. 
-* **Stable?**: The default implementation is not stable. However it can be made stable
+* **In place?**: Yes
+* **Stable?**: Yes
     
