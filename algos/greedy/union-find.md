@@ -2,7 +2,7 @@
 
 The <b><i>Union-Find</i></b> (also known as <b><i>Disjoint-Set</i></b>) data structure can track elements
 partitioned into disjoint subsets. It provides near-constant time operations merge
-(<b><i>union</i></b>) and contains (<b><i>find</i></b>) operations.
+(<b><i>union</i></b>) and contains (<b><i>find</i></b>) operations.
 
 ## Operations
 
@@ -39,7 +39,7 @@ class UnionFind {
 }
 ```
 
-* Find(x) operation, which finds the parent of the subset in which the given node is 
+* **Find(x)** operation, which finds the parent of the subset in which the given node is 
 
 ```java
  /**
@@ -56,7 +56,7 @@ class UnionFind {
   }
 ```
 
-* Union(x, y) which merges the 2 subsets of the 2 given nodes
+* **Union(x, y)** which merges the 2 subsets of the 2 given nodes
 
 ```java
   /**
