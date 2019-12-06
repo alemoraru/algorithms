@@ -1,3 +1,4 @@
+go [back](TUTORIALS-MENU.md)
 # C/C++ structures
 
 Unlike Arrays, Structures in C++ are user defined data types which are used to store group of items of non-similar data types.

@@ -1,3 +1,4 @@
+go [back](SORTING-MENU.md)
 # Bubble Sort
 
 This sorting algorithm revolves around the idea of checking each element with the next and swapping when in wrong order. Essentially, this algorithm is really slow, therefore other sorting algorithms are recommended, such as  **merge sort** or **quick sort**.

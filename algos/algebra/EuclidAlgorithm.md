@@ -1,3 +1,4 @@
+go [back](ALGEBRA-MENU.md)
 # __Euclidian algorithm for computing the greatest common divisor__
 
 Given two non-negative integers *__a__* and *__b__*, we have to find their *__GCD__*. 

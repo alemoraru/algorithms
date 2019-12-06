@@ -1,3 +1,4 @@
+go [back](GRAPHS-MENU.md)
 # Graph Theory *1
 
 ## Cycle detection in a directed graph

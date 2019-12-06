@@ -1,3 +1,4 @@
+go [back](TUTORIALS-MENU.md)
 # Pointers
 
 Pointers are symbolic representation of addresses. They enable programs to simulate call-by-reference as well as to create and manipulate dynamic data structures. It’s general declaration in C/C++ has the format:

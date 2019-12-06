@@ -1,3 +1,4 @@
+go [back](ALGEBRA-MENU.md)
 # __Integer Factorization__
 
 There are multiple approaches to this.

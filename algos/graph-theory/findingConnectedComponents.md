@@ -1,3 +1,4 @@
+go [back](GRAPHS-MENU.md)
 # __Finding Connected Components__
 
 Given an undirected graph *__G__* with *__n__* nodes and *__m__* edges. We are required to find in it all the connected components, i.e, several groups of vertices such that within a group each vertex can be reached from another and no path exists between different groups.

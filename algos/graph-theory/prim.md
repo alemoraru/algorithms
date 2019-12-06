@@ -1,3 +1,4 @@
+go [back](GRAPHS-MENU.md)
 # Prim's algorithm for minimum spanning tree
 
 Given a weighted, undirected graph <i>__G__</i> with __n__ vertices and __m__ edges. You want to find a spanning tree of this graph which connects all vertices and has the least weight (i.e. the sum of weights of edges is minimal). A spanning tree is a set of edges such that any vertex can reach any other by exactly one simple path. The spanning tree with the least weight is called a minimum spanning tree.

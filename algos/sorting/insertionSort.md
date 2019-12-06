@@ -1,3 +1,4 @@
+go [back](SORTING-MENU.md)
 # Insertion Sort
 * Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands. 
 * For each iteration of the array, we take a key as the current element and shift all elements 1 position backwards while they are greater than the key.

@@ -1,3 +1,5 @@
+go back to (alemoraru.github.io)[https://alemoraru.github.io/html/myProjects.html]
+
 A quick overview of essential algorithms for any coding contest and c++ language tutorials. Moreover, some algorithms might be 
 only in c++, only in java, or in both. For the most part, I will try to have everything in both languages.
 
@@ -5,8 +7,11 @@ This is a quick .md summary of the information gathered in university and also i
 
 In this repository you will find different essential algorithms for topics such as : 
 * Algebra
-* Graph Theory
-* String manipulation
+* Graph theory
+* Sorting algorithms
+* Divide & conquer algorithms
+* Greedy algorithms
+* & more on the way
 
 Also, besides cp-algorithms, this repository includes essentials of other basic c/c++ constructs and features,
 most notably : 
@@ -21,7 +26,8 @@ for a better use of the language.
 
 **NOTES:**
 * This is a WIP repository, therefore not all mentioned information is complete and/or present.
-* If you feel like you have found a mistake, please let me know.
+* AS for the tutorials folder, I will update it as soon as I can with a good structure and more significant content.
+* If you feel like you have found a mistake or something that ambiguous, please let me know.
 * For any another questions, feel free to contact me. 
 
 *cp - competitive programming (fancy word of saying algorithm)

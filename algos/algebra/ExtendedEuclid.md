@@ -1,3 +1,4 @@
+go [back](ALGEBRA-MENU.md)
 # __Euclidian algorithm for computing the greatest common divisor__
 
 While the __Euclidian Algorithm__ calculates only the GCD of integers *__a__* and *__b__*, the extended version also finds a way to represent GCD in terms of *__a__* and *__b__*, i.e. coefficients *__x__* and *__y__* for which : 

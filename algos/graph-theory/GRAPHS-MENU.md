@@ -1,3 +1,5 @@
+go [back](../ALGOS-MENU.md)
+
 Graph theory navigation menu:
 * [Breadth first search](../graph-theory/breadthFirstSearch.md)
 * [Depth first search](../graph-theory/depthFirstSearch.md)
