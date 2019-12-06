@@ -16,7 +16,7 @@ most notably :
 
 The repository is therefore split into two parts, nameley :
 * Subfolder [algos](algos/ALGOS-MENU.md), which contains relevant cp* algorithms
-* Subfolder [tutorials](tutorials), which contains tutorials to c/c++ syntax and constructs
+* Subfolder [tutorials](tutorials/TUTORIALS-MENU.md), which contains tutorials to c/c++ syntax and constructs
 for a better use of the language.
 
 **NOTES:**
