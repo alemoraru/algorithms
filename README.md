@@ -1,5 +1,3 @@
-# Algorithms
-
 A quick overview of essential algorithms for any coding contest and c++ language tutorials. Moreover, some algorithms might be 
 only in c++, only in java, or in both. For the most part, I will try to have everything in both languages.
 
