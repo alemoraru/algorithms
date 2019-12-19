@@ -5,13 +5,15 @@ Given two non-negative integers *__a__* and *__b__*, we have to find their *__GC
 
 ## __Implementation__
 
-The recursive approach :
+### C++
+
+The recursive approach:
 ```c++
 int gcd (int a, int b) {
     if (b == 0)
         return a;
     else
-        return gcd (b, a % b);
+        return gcd(b, a % b);
 }
 ```
 The recursive approach in 1 line:
@@ -32,6 +34,34 @@ int gcd (int a, int b) {
     return a;
 }
 ```
+
+### Java
+
+The recursive approach:
+
+```java
+public int gcd(int a, int b) {
+    if (b == 0) {
+        return a;
+    } else {
+        return gcd(b, a % b);
+    }
+}
+```
+
+Iterative implementation: 
+
+```java 
+public int gcd(int a, int b) {
+    while (b != 0) {
+        int r = a % b;
+        a = b;
+        b = r;
+    }
+    return a;
+}
+```
+
 
 ## __Time Complexity__
 
