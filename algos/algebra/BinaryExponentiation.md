@@ -24,7 +24,7 @@ The idea is to write n in base 2, for example :
 * To get the final answer for 3<sup>13</sup> we need only multiply 3 of them because the corresponding bit for 3<sup>2</sup> is not set in *__n__*.
 * 3<sup>13</sup> = 6561 * 81 * 3 = 1594323
 
-* Final complexity is O(log n)
+* Final complexity is O(**log n**)
 
 ## __Implementation__
 

@@ -56,5 +56,5 @@ public static int quickSelect(int[] arr, int l, int r, int index) {
 
 ## Complexity
 
-* Has a worst-case time complexity of **O(n<sup>2</sup>)**
+* Has a worst-case time complexity of O(**n<sup>2</sup>**)
 * Can be improved to **linear tine** if implemented via **median of medians** method

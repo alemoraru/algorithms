@@ -67,7 +67,7 @@ public int gcd(int a, int b) {
 
 Worst case scenario is when we get 2 consecutive Fibonacci numbers, hence it 
 
-works in __O(log min(a, b))__
+works in O(**log min(a, b)**)
 
 ## __Least common multiple__
 

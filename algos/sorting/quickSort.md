@@ -61,5 +61,5 @@ public static int partition(int[] arr, int low, int high) {
 ```
 ## Complexity
 
-* Worst-case time complexity is **O(n<sup>2</sup>)**, which can happen if we are always choosing lowest/highest element/
-* We can get a **O(n log n)** worst-case time complexity when we partition around the **median** element, since finding it takes linear time.
+* Worst-case time complexity is O(**n<sup>2</sup>**), which can happen if we are always choosing lowest/highest element/
+* We can get a O(**n log n**) worst-case time complexity when we partition around the **median** element, since finding it takes linear time.
