@@ -9,7 +9,7 @@ go [back](GRAPHS-MENU.md)
 * The algorithm works in O(*__n__* + *__m__*) time, where *__n__* is number of vertices and *__m__* is the number of edges.
 
 
-# __Implementation(Iterative)__
+## __Implementation(Iterative)__
 
 c++ implementation: 
 
@@ -65,7 +65,7 @@ public static void dfs(ArrayList<ArrayList<Integer>> adj, boolean[] visited, int
     }
 }
 ```
-# __Implementation(Recursive)__
+## __Implementation(Recursive)__
 
 c++ implementation: 
 
