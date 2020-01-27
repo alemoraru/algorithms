@@ -50,6 +50,21 @@ public static int findMaxSum(int n, int W, int[] weights, int[] values) {
 }
 
 ```
+
+code snippet to get the optimal solution: 
+```java
+while (i >= 1 && w >= 1) {
+      if (opt[i][w] == opt[i - 1][w]) {
+        i--;
+      } else {
+        // ith position was used so we print it
+        System.out.print(i + " ");
+        w-= weights[i];
+        i--;
+      }
+    }
+```
+
 ## __Analysis__
 
 * Time complexity: O(**n * W**), where W is total allowed weight

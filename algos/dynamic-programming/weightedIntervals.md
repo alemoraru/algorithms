@@ -58,6 +58,23 @@ public static int solve(int n, int[] s, int[] f, int[] v, int[] p) {
     return opt[n];
   }
 ```
+
+code snippet to get the optimal solution: 
+```java
+while (i >= 1) {
+      int job = p[i] < 0 ? 0 : opt[p[i]];
+      
+      if (v[i] + job >= opt[i - 1]) {
+        // ith job was used for the optimal solution
+        // so we print the index of that job  
+        System.out.print(i + " ");
+        i = p[i];
+      } else {
+        i--;
+      }
+    }
+```
+
 ## __Analysis__
 
 * Time complexity: O(**n * log n**) - since we perform a bynary search </br> for each element when computing its predecessor
