@@ -74,7 +74,7 @@ public static int compare(char x, char y) {
 }
 ```
 
-## Analysis
+## __Analysis__
 
 * Time complexity: O(**n * m**)
 * Space complexity: O(**n * m**)
