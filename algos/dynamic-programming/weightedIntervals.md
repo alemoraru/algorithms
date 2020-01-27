@@ -5,12 +5,12 @@ go [back](DP-MENU.md)
 ## __Introduction__
 
 * We are given n intervals(requests) each with a start time, finish time, and a weight or value
-* The idea is to sort the requests in order of non-decreasing finish time such that </br>
+* The idea is to sort the requests in order of non-decreasing finish time such that
 f<sub>1</sub> <= f<sub>2</sub> <= ... <= f<sub>n</sub>
 * We will say a request i comes before j if i < j
-* Also we define an array p where **p(j)** = largest index i < j such that f<sub>i</sub> <= s<sub>j</sub>, </br> where f<sub>i</sub> denotes finish time of request i and s<sub>j</sub> denotes start time of request j
+* Also we define an array p where **p(j)** = largest index i < j such that f<sub>i</sub> <= s<sub>j</sub>, where f<sub>i</sub> denotes finish time of request i and s<sub>j</sub> denotes start time of request j
 
-* we define **opt(j) = max(v<sub>j</sub> + opt(p(j)), opt(j - 1))** </br> 
+* we define **opt(j) = max(v<sub>j</sub> + opt(p(j)), opt(j - 1))**
 therefore request j belongs to an optimal solution on the set {1, 2, ..., j} if and only if v<sub>j</sub> + opt(p(j)) >= opt(j - 1)
 
 ## __Implementation__
@@ -77,7 +77,7 @@ while (i >= 1) {
 
 ## __Analysis__
 
-* Time complexity: O(**n * log n**) - since we perform a bynary search </br> for each element when computing its predecessor
+* Time complexity: O(**n * log n**) - since we perform a bynary search for each element when computing its predecessor
 * Space complexity: O(**n**)
 
 
