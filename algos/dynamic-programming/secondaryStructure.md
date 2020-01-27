@@ -1,6 +1,6 @@
 go [back](DP-MENU.md)
 
-# __RNA Secondary Structure__
+# __RNA secondary structure__
 
 ## __Introduction__
 

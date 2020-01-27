@@ -4,5 +4,5 @@ Dynamic programming navigation menu:
 * [Weighted interval scheduling](../dynamic-programming/weightedIntervals.md)
 * [Segmented least squares](../dynamic-programming/segmentedLeastSquares.md)
 * [Subset sums & Knapsack problem](../dynamic-programming/subsetSumsKnapsack.md)
-* [RNA Secondary Structure](../dynamic-programming/secondaryStructure.md)
+* [RNA secondary structure](../dynamic-programming/secondaryStructure.md)
 * [Sequence Alignment](../dynamic-programming/sequenceAlignment.md)
