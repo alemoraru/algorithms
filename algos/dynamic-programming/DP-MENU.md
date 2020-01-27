@@ -6,3 +6,4 @@ Dynamic programming navigation menu:
 * [Subset sums & Knapsack problem](../dynamic-programming/subsetSumsKnapsack.md)
 * [RNA secondary structure](../dynamic-programming/secondaryStructure.md)
 * [Sequence Alignment](../dynamic-programming/sequenceAlignment.md)
+* [Bellman-Ford algorithm](../dynamic-programming/bellmanFord.md)
