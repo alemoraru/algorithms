@@ -5,7 +5,7 @@ go [back](DP-MENU.md)
 ## __Introduction__
 
 * Given a set of points **P = {(x<sub>1</sub>, y<sub>1</sub>), (x<sub>2</sub>, y<sub>2</sub>), ..., (x<sub>n</sub>, y<sub>n</sub>)}** with **x<sub>1</sub> < x<sub>2</sub> < ... < x<sub>n</sub>**
-* Often when looking at scientific or statistical data, plotted on a twodimensional set of axes, </br> one tries to pass a “line of best fit” through the
+* Often when looking at scientific or statistical data, plotted on a twodimensional set of axes, one tries to pass a “line of best fit” through the
 data
 * Thus, we need a problem formulation that requires us to fit the points well, using as few lines as possible
 * Suppose **opt(i)** denotes the optimum solution for the points **p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>i</sub>** and **e<sub>i, j</sub>** = minimum error of any line with respect to  **p<sub>i</sub>, p<sub>i+1</sub>, ..., p<sub>j</sub>**

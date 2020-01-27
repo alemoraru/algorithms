@@ -15,7 +15,7 @@ go [back](DP-MENU.md)
 * We need to find an optimal path **P** representing **opt(i, v)**:
     * If the path uses at most **i - 1** edges, then **opt(i, v) = opt(i - 1, v)**
     * If the path uses **i** edges, and the first edge is **(v, w)**, then **opt(i, v) = c<sub>vw</sub> + opt(i - 1, w)**`
-* Leads to this recursive formula: If i > 0 then </br>
+* Leads to this recursive formula: If i > 0 then
 **opt(i, v) = min(opt(i - 1, v), min<sub>w in V</sub>(opt(i - 1, v) + c<sub>vw</sub>))**
 
 ## __Implementation__

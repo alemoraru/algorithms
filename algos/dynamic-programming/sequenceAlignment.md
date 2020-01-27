@@ -19,15 +19,14 @@ go [back](DP-MENU.md)
     1. (m, n) is in M
     2. the m<sup>th</sup> position of X is not matched
     3. the n<sup>th</sup> position of Y is not matched
-    </br></br>
-    * if 1. holds we pay &alpha;<sub>x<sub>m</sub>y<sub>n</sub></sub> and then align **x<sub>1</sub>x<sub>2</sub>...x<sub>m - 1</sub>** with **y<sub>1</sub>y<sub>2</sub>...y<sub>n - 1</sub>**. </br>
+    * if 1. holds we pay &alpha;<sub>x<sub>m</sub>y<sub>n</sub></sub> and then align **x<sub>1</sub>x<sub>2</sub>...x<sub>m - 1</sub>** with **y<sub>1</sub>y<sub>2</sub>...y<sub>n - 1</sub>**. 
     Therefore we get **opt(m, n)** = &alpha;<sub>x<sub>m</sub>y<sub>n</sub></sub> + opt(m - 1, n - 1)
-    * if 2. holds we pay gap &delta; </br>
+    * if 2. holds we pay gap &delta; 
     Therefore we get **opt(m, n)** = &delta; + opt(m - 1, n)
-    * if 3. holds we pay gap &delta; </br>
+    * if 3. holds we pay gap &delta;
     Therefore we get **opt(m, n)** = &delta; + opt(m, n - 1)
 
-* The minimum cost for aligning i >= 1 and j >= 1 is </br>
+* The minimum cost for aligning i >= 1 and j >= 1 is
 **opt(i, j) = min[&alpha;<sub>x<sub>i</sub>y<sub>j</sub></sub> + opt(i - 1, j - 1), &delta; + opt(i - 1, j), &delta; + opt(i, j - 1)]**
 
 * opt(i, 0) = opt(0, i) = i * &delta; for all i, since the only way of aligning an i-letter word with a 0-letter word is to use i gaps

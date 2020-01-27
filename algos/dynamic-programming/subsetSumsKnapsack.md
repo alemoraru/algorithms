@@ -4,7 +4,7 @@ go [back](DP-MENU.md)
 
 ## __Introduction__
 
-* We use **opt(i, w)** to denote the value of the optimal solution using a subset of items **{1, ..., i}** </br>
+* We use **opt(i, w)** to denote the value of the optimal solution using a subset of items **{1, ..., i}** 
 and a maximum allowed weight **w**
 * **opt(i, w)** = max<sub>S</sub> &#931;<sub>j in S</sub>(w<sub>j</sub>), where maximum is over subsets S including {1, ..., i} that satisfy w<sub>j</sub> <= w
 
